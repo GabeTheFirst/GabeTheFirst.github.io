@@ -1,0 +1,234 @@
+/* The body */
+
+
+
+body {
+  background-color: rgb(53, 53, 53);
+  filter: blur(5rem);
+  transition-duration: 300ms;
+}
+
+.FadeOut {
+  background-color: rgb(53, 53, 53);
+  filter: blur(0rem);
+  transition-duration: 300ms;
+}
+
+/* Text */
+
+
+
+p { 
+  color: white;
+  font-size: 5rem;
+  font-family: monospace;
+  text-align: center;
+}
+
+
+
+/* Navigation Bar */
+
+
+
+.navigation {
+  background-color: rgb(255, 255, 255);
+  position: static;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  
+  width: 95%;
+  height: auto;
+  border-radius: 1rem;
+}
+
+
+
+/* Buttons */
+
+
+
+a {
+  background-color: rgb(138, 138, 138);
+
+  display: inline-block;
+  padding: 1% 1% 0% 1%;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+  margin-left: .5rem;
+  text-align:center;
+  height:4rem;
+  font-family: monospace;
+  text-align: center;
+  color: white;
+
+  text-decoration: none;
+  font-size: 2rem;
+  width:auto;
+  border-radius: 1rem;
+  transition-duration: .2s;
+}
+
+a:hover {
+  background-color: rgb(138, 138, 138);
+
+  display: inline-block;
+  padding: 1% 1% 0% 1%;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+  margin-left: .5rem;
+
+
+
+  text-align:center;
+  height:4rem;
+  font-family: monospace;
+  text-align: center;
+  color: white;
+
+  text-decoration: none;
+  font-size: 2rem;
+  width:auto;
+  border-radius: 1rem;
+
+  box-shadow: 0rem 0rem 2rem black inset;
+  transition-duration: .2s;
+}
+
+
+
+/* Projects Menu */
+
+
+
+.ProjectsMenu {
+  background-color: rgb(255, 255, 255);
+  position: static;
+  margin-left: 35%;
+  margin-right: 35%;
+  
+  width: 30%;
+  height: auto;
+  border-radius: 2rem;
+  box-shadow: -2rem 2rem 2rem black;
+}
+
+.ProjectsMenu p { 
+  color: white;
+  font-size: 2rem;
+  font-family: monospace;
+  text-align: center;
+}
+
+.ProjectsMenu a {
+  background-color: rgb(138, 138, 138);
+  padding: 1% 1% 0% 1%;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+  margin-left: .5rem;
+  text-align:center;
+  height:4rem;
+  font-family: monospace;
+  text-align: center;
+  color: white;
+
+  text-decoration: none;
+  font-size: 2rem;
+  width:auto;
+  border-radius: 1rem;
+  transition-duration: .2s;
+}
+
+.ProjectsMenu a:hover {
+  background-color: rgb(138, 138, 138);
+
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+  margin-left: .5rem;
+
+  padding: 1% 1% 0% 1%;
+
+  text-align:center;
+  height:4rem;
+  font-family: monospace;
+  text-align: center;
+  color: white;
+
+  text-decoration: none;
+  font-size: 2rem;
+  width:auto;
+  border-radius: 1rem;
+
+  box-shadow: 0rem 0rem 2rem black inset;
+  transition-duration: .2s;
+}
+
+
+
+/* Projects List Menu */
+
+
+
+.ProjectsListMenu {
+  background-color: rgb(255, 255, 255);
+  position: static;
+  margin-left: 35%;
+  margin-right: 35%;
+  
+  width: 30%;
+  height: auto;
+  border-radius: 2rem;
+  box-shadow: -2rem 2rem 2rem black;
+}
+
+.ProjectsListMenu p { 
+  color: white;
+  font-size: 2rem;
+  font-family: monospace;
+  text-align: center;
+}
+
+.ProjectsListMenu a {
+  background-color: rgb(138, 138, 138);
+  padding: 1% 1% 0% 1%;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+  margin-left: .5rem;
+  text-align:center;
+  height:10rem;
+  font-family: monospace;
+  text-align: center;
+  color: white;
+
+  text-decoration: none;
+  font-size: 2rem;
+  width:90%;
+  border-radius: 1rem;
+  transition-duration: .2s;
+}
+
+.ProjectsListMenu a:hover {
+  
+  background-color: rgb(138, 138, 138);
+
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+  margin-left: .5rem;
+
+  padding: 1% 1% 0% 1%;
+
+  text-align:center;
+  height:10rem;
+  font-family: monospace;
+  text-align: center;
+  color: white;
+
+  text-decoration: none;
+  font-size: 2rem;
+  width:90%;
+  border-radius: 1rem;
+
+  box-shadow: 0rem 0rem 3rem black;
+  
+  transition-duration: .2s;
+}
